@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "kraken",
+  "version": "${version}",
+  "name": "Kraken",
+  "description": "A meteor exploit box",
+  "authors": [
+    "loli-tummy"
+  ],
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "pictures.cunny.kraken.Kraken"
+    ]
+  },
+  "mixins": [
+  ],
+  "custom": {
+    "meteor-client:color": "42,131,47"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": "*",
+    "meteor-client": "*"
+  }
+}

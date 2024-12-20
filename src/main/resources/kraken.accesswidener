@@ -1,0 +1,12 @@
+accessWidener	v1	named
+
+accessible   class  net/minecraft/client/network/ClientPlayNetworkHandler
+mutable   field  net/minecraft/client/network/ClientPlayerEntity   networkHandler   Lnet/minecraft/client/network/ClientPlayNetworkHandler;
+
+accessible   class  net/minecraft/network/ClientConnection
+accessible   field  net/minecraft/network/ClientConnection   channel   Lio/netty/channel/Channel;
+
+accessible method net/minecraft/fluid/FlowableFluid getSpread (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;)Ljava/util/Map;
+
+accessible method net/minecraft/client/gui/hud/DebugHud getBiomeString (Lnet/minecraft/registry/entry/RegistryEntry;)Ljava/lang/String;
+
